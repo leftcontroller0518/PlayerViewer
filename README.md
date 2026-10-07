@@ -1,8 +1,6 @@
-# PlayerViewer (Minecraft 26.3 Fabric)
+# PlayerViewer
 
-統合版（Bedrock Edition）のように、ゲーム内画面右上に自分の姿（ペーパードール）をリアルタイム表示するFabric MODです。
-
----
+統合版（Bedrock Edition）のように、ゲーム内画面右上に自分の姿（ペーパードール）をリアルタイム表示するFabric用MODです。
 
 ## 主な機能
 
@@ -30,3 +28,6 @@
      - `offsetY`: 画面上部からの縦位置 (デフォルト: `55`)
      - `showBackground`: 半透明の黒背景ボックスを表示するか (デフォルト: `false`)
      - `followLook`: プレイヤーの視線マウスに人形の首を追従させるか (デフォルト: `false` 統合版固定アングル)
+
+   ## 対応バージョン
+   26.3
