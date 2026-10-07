@@ -1,9 +1,32 @@
-# Example Mod
+# PlayerViewer (Minecraft 26.3 Fabric)
 
-## Setup
+統合版（Bedrock Edition）のように、ゲーム内画面右上に自分の姿（ペーパードール）をリアルタイム表示するFabric MODです。
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+---
 
-## License
+## 主な機能
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+1. **画面右上のペーパードール（プレイヤー姿）表示**
+   - 走る、しゃがむ（スニーク）、泳ぐ、エリトラ滑空、睡眠、アイテム使用、攻撃などのアクションや装備がリアルタイムで反映されます。
+   - 統合版らしい斜め前を向く自然なアングルで描画されます。
+
+2. **インベントリ風スロット枠＆装備・耐久値表示**
+   - **防具スロット**: プレイヤーの左側に頭・胴・脚・足の4部位を縦並びで配置。
+   - **手持ちスロット**: プレイヤーの真下にオフハンド（左）とメインハンド（右）を横並びで配置。
+   - 各スロットはバニラインベントリと同じ立体感のあるスロット枠（凹凸シャドウ＆ハイライト）で囲まれています。
+   - 耐久値のあるアイテムは、残り耐久値の数値（緑・黄・赤の色分け）と耐久度バーが表示されます。
+
+3. **ワンキーで表示切り替え**
+   - デフォルトで **`V` キー** を押すと、画面上のPlayerViewerの表示/非表示を瞬時に切り替えられます（アクションバーに通知が表示されます）。
+   - 設定画面の「操作設定（キー割り当て）」からお好みのキーに変更可能です。
+
+4. **コンフィグ（設定ファイル）によるカスタマイズ**
+   - `.minecraft/config/playerviewer.json` にて以下の設定が可能です：
+     - `enabled`: 全体表示の有効/無効 (デフォルト: `true`)
+     - `showDurability`: 防具・装備の耐久値表示の有効/無効 (デフォルト: `true`)
+     - `onlyWhenActive`: アクション時（走る・泳ぐ・滑空など）のみ表示するか、常時表示するか (デフォルト: `false` 常時)
+     - `scale`: 人形モデルの大きさ (デフォルト: `25`)
+     - `offsetX`: 画面右端からの横位置 (デフォルト: `48`)
+     - `offsetY`: 画面上部からの縦位置 (デフォルト: `55`)
+     - `showBackground`: 半透明の黒背景ボックスを表示するか (デフォルト: `false`)
+     - `followLook`: プレイヤーの視線マウスに人形の首を追従させるか (デフォルト: `false` 統合版固定アングル)
