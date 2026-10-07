@@ -1,4 +1,6 @@
 # PlayerViewer
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/leftcontroller0518/PlayerViewer/total)](https://github.com/leftcontroller0518/PlayerViewer/releases/latest)
 
 統合版（Bedrock Edition）のように、ゲーム内画面右上に自分の姿（ペーパードール）をリアルタイム表示するFabric用MODです。
 
