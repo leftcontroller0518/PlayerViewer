@@ -2,6 +2,9 @@
 
 統合版（Bedrock Edition）のように、ゲーム内画面右上に自分の姿（ペーパードール）をリアルタイム表示するFabric用MODです。
 
+## ゲーム内画像
+<img width="249" height="225" alt="2026-10-07_17 40 53" src="https://github.com/user-attachments/assets/2ab9dad6-dd3f-404a-8bd1-0d1d6e6fa840" />
+
 ## 主な機能
 
 1. **画面右上のペーパードール（プレイヤー姿）表示**
