@@ -34,5 +34,8 @@
      - `showBackground`: 半透明の黒背景ボックスを表示するか (デフォルト: `false`)
      - `followLook`: プレイヤーの視線マウスに人形の首を追従させるか (デフォルト: `false` 統合版固定アングル)
 
-   ## 対応バージョン
-   26.3
+## 対応バージョン
+[26.3](https://github.com/leftcontroller0518/PlayerViewer/releases/tag/v1.0.0)
+
+## 前提MOD
+Fabric API
